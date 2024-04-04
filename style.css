@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+ font-family: 'Times New Roman', Times, serif;
+    background-image: url(Vitrina-dulces-Manu-Jara_1783931685_182006017_667x375\ fondo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.info{
+background-color: #000;
+color: #ffffff;
+padding: 20px;
+text-align: center;
+}
+
+header{
+    max-width: 500px;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 0 20px;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+section{
+    padding-top: 100px;
+    text-align: center;
+    color: #ffffff;
+}
+
+section h1{
+    font-size: 80px;
+}
+
+section a{
+    text-decoration: none;
+    color: #ffffff;
+    border: 3px solid #fff;
+    padding: 5px;
+}
+
